@@ -1,0 +1,63 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,input,form,a,p,textarea,header{
+    margin:0;
+    padding:0;
+    font-family: "microsoft yahei";
+}
+body{font-size: 12px;}
+ol,ul,li{
+    list-style: none;
+}
+a{text-decoration: none;color: #000;}
+body a:hover {
+    color: #DB3962;
+}
+header{height:38px;background: #F3F3F3;}
+.headercen{width:1180px;margin:0 auto;height:38px;overflow: hidden;}
+.headercen .hleft{line-height: 38px;width:550px;float:left;}
+.headercen .hright ul{width:630px;height:38px;line-height: 38px;float: right;}
+.headercen .hright ul li{float: left;}
+.headercen .hright span{color:#DB3962;}
+.headercen .hright ul li:nth-of-type(4) a{color:#DB3962;margin:0 10px 0 10px;padding-left: 17px;    background: url(../image/headerbg.png) no-repeat 0 -39px;}
+.headercen .hright ul li:nth-of-type(7) a{margin:0 2px 0 10px;padding-left: 26px;    background: url(../image/headerbg.png) no-repeat 0 -129px;}
+.headercen .hright ul li:nth-of-type(6) a{margin:0 10px 0 10px;padding-left: 25px;    background: url(../image/headerbg.png) no-repeat 0 -96px;}
+.headercen .hright ul li:nth-of-type(5) a{margin:0 10px 0 10px;padding-left: 22px;    background: url(../image/headerbg.png) no-repeat 0 -64px;}
+.headercen .hright ul li:nth-of-type(3) a{margin:0 10px 0 10px;padding-left: 17px;    background: url(../image/headerbg.png) no-repeat 0 -39px;}
+.headercen .hright ul li:nth-of-type(2) a{margin:0 10px 0 10px;}
+.headercen .hright ul li:nth-of-type(1) a{margin:0 10px 0 62px;padding-left: 20px;    background: url(../image/headerbg.png) no-repeat 0 -20px;}
+.search{height: 100px;}
+.searchcen{width:1180px;margin:0 auto;height:90px;padding:5px 0;}
+.searchcen img{display: block;}
+.searchcen img:nth-of-type(1){float: left;}
+.searchcen img:nth-of-type(2){float: right;}
+.searchcen .sousuo{float: right;width:400px;height:72px;padding-left: 150px;padding-top:18px;}
+.searchcen .sousuo form{height:30px;border:1px solid #6D6C6C;width:260px;}
+.searchcen .sousuo form input:nth-of-type(1){height:30px;border:0;width:199px;float:left;font: 400 13.3333px Arial;outline: none;}
+.searchcen .sousuo form input:nth-of-type(2){height:30px;border:0;width:61px;float:left;background: #6D6C6C;color: #fff;cursor: pointer;font: 400 13.3333px Arial;}
+.searchcen .sousuo a{margin-right: 9px;margin-top:10px;display: block;float: left; color: #7D7D7D;}
+.menuer{height:38px;}
+.menuercen{height:38px;margin:0 auto;width:1180px;}
+.menuercen .allmen{float: left;width: 200px;position: relative;}
+.menuercen .allmen .p{width:183px;height:38px;background:url(../image/icon.png) no-repeat 160px 0 #C11E20;font-size: 14px;font-weight: bold;color: #FFFFFF;line-height: 38px;padding-left:17px;}
+.menuercen .allmen ul{position:absolute;top: 38px;left: 0;background: #312D2D;width:200px;display: none;}
+.menuercen .allmen ul a{color:#fff;margin-left:12px;font-size: 12px;font-weight: normal;}
+.menuercen .allmen ul a:hover{ color: #DB3962;}
+.menuercen img{display: block;float: right;}
+.menuercen nav{float:left;height:38px;}
+.menuercen nav a{display: block;float: left;line-height: 38px;font-size: 14px;font-weight: bold;margin:0 20px;}
+.menuercen nav a:nth-of-type(1){margin:0 25px 0 50px;}
+.menuercen .allmen ul li{padding: 8px 5px 1px 5px;width: 190px;line-height: 25px;} 
+.menuercen .allmen ul li a{width:50px;float: left;}
+.menuercen .allmen ul li a:nth-of-type(1){font-weight: bold;width:36px;}
+.menuercen .allmen ul li:nth-of-type(7) a:nth-of-type(1){font-weight: normal;width:50px;}
+.menuercen .allmen ul li:nth-of-type(7) a:nth-of-type(2){font-weight: bold;width:100px;}
+.menuercen .allmen ul li:nth-of-type(1){height:81px;}
+.menuercen .allmen ul li:nth-of-type(1) a:nth-of-type(1){height:81px;}
+.menuercen .allmen ul li:nth-of-type(2){height:81px;}
+.menuercen .allmen ul li:nth-of-type(2) a:nth-of-type(1){height:81px;}
+.menuercen .allmen ul li:nth-of-type(3){height:57px;}
+.menuercen .allmen ul li:nth-of-type(3) a:nth-of-type(1){height:57px;}
+.menuercen .allmen ul li:nth-of-type(4){height:51px;}
+.menuercen .allmen ul li:nth-of-type(4) a:nth-of-type(1){height:51px;}
+.menuercen .allmen ul li:nth-of-type(n+5){height:32px;}
+.menuercen .allmen .p:hover{background-position: 160px -38px; }
+.menuercen .allmen .p:hover ul{display: block;}
