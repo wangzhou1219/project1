@@ -1,0 +1,70 @@
+﻿<html>
+<head>
+    <title>404错误 您要查看的网页不存在！- 戴欧妮钻石网</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+        INPUT { FONT-SIZE: 12px; }
+        TD { FONT-SIZE: 12px; }
+        .p2 { FONT-SIZE: 12px; }
+        .p6 { FONT-SIZE: 12px; COLOR: #1b6ad8; }
+        A { COLOR: #1b6ad8; TEXT-DECORATION: none; }
+        A:hover { COLOR: red; }
+    </style>
+    <meta content="Microsoft FrontPage 5.0" name="GENERATOR">
+</head>
+<body>
+    <p align="center"></p>
+    <p align="center"></p>
+    <table cellspacing="0" cellpadding="0" width="540" align="center" border="0">
+        <tbody>
+            <tr>
+                <td valign="top" height="270">
+                    <div align="center">
+                        <br>
+                        <img height="211" src="/images/404/error.gif" width="329"><br>
+                        <br>
+                        <table cellspacing="0" cellpadding="0" width="80%" border="0">
+                            <tbody>
+                                <tr>
+                                    <td><font class="p2">&nbsp;&nbsp;&nbsp; <FONT color=#ff0000><IMG height=13 src="/images/404/emessage.gif"  width=12>&nbsp;无法访问本页的原因是：</FONT></font></td>
+                                </tr>
+                                <tr>
+                                    <td height="8"></td>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                <font color="#000000"><BR>
+                    您所请求的页面不存在或者已经删除，请刷新页面或者检查网址是否正确 ! </font>
+                                            </p>
+                                            <br>
+                                        </td>
+                                    </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td height="5"></td>
+                <tr>
+                    <td align="middle">
+                        <center>
+          <TABLE cellSpacing=0 cellPadding=0 width=480 border=0>
+            <TBODY>
+              <TR>
+                <TD width=6><IMG height=26 src="/images/404/left.gif" width=7></TD>
+                <TD background="/images/404/bg.gif"><DIV align=center><FONT class=p6><A  href="/">进入首页</A>　 　|　　 <A  href="javascript:history.go(-1)">返回上一页</A>　 　|　　 <A  href="javascript:window.close()">关闭本页</A></FONT> </DIV></TD>
+                <TD width=7><IMG src="/images/404/right.gif"></TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+        </center>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+    <p align="center"></p>
+    <p align="center"></p>
+</body>
+</html>
+

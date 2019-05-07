@@ -1,0 +1,114 @@
+﻿.homeslider { height: 420px; }
+.homeslider .sliderwrap { position: relative; height: 420px; overflow: hidden; }
+.homeslider .sliderwrap .wrapslider { margin: 0; padding: 0; position: relative; z-index: 1; }
+.homeslider .sliderwrap .wrapslider li { margin: 0; padding: 0; list-style: none; height: 420px; }
+.homeslider .sliderwrap .wrapslider li a { margin: 0; padding: 0; width: 100%; height: 420px; float: left; }
+
+.homeline { clear: both; margin: 0 auto; width: 1180px; height: 18px; background: url(/images/home/line.jpg); }
+
+.homeline1 { clear: both; margin: 0 auto; padding-top: 18px; width: 1180px; height: 210px; background: #FFFFFF; overflow: hidden; }
+.homeline1 .left { float: left; padding: 4px; width: 310px; height: 200px; line-height: 22px; text-align: center; border: 1px solid #DDDDDD; overflow: hidden; }
+.homeline1 .center { float: left; margin-left: 15px; padding: 4px; width: 500px; height: 200px; line-height: 22px; text-align: center; border: 1px solid #DDDDDD; overflow: hidden; }
+.homeline1 .right { float: left; margin-left: 15px; padding: 4px; width: 310px; height: 200px; line-height: 22px; text-align: center; border: 1px solid #DDDDDD; overflow: hidden; }
+
+.homeline2 { clear: both; margin: 0 auto; width: 1180px; height: 159px; background: #FFFFFF; overflow: hidden; border:1px solid #dddddd; }
+.homeline2 .leftdiamondimg{width:616px;height:159px;float:left; background-color:#f9f9f9;}
+.homeline2 .leftdiamondimg img{margin-top:20px;margin-left:15px;background-color:#f9f9f9;}
+.homeline2 .rightsearchbtn{width:562px;height:159px;float:left;background: url(/images/home/line2/bg1.png);}
+
+
+.homeline2 .rightsearchbtn .inputvalue{margin-top:20px;float:left;width:215px;height:33px;}
+.homeline2 .rightsearchbtn .inputvalue .inputcss{float:left;width:50px;height:33px;margin-left:70px;margin-top:5px;}
+.homeline2 .rightsearchbtn .inputvalue .inputcss .searchinputcss{width:40px;height:15px;}
+.homeline2 .rightsearchbtn .inputvalue .rightinputcss{float:left;width:50px;height:33px;margin-top:5px;}
+.homeline2 .rightsearchbtn .inputvalue .rightinputcss .searchinputcss{width:40px;height:15px;}
+.homeline2 .rightsearchbtn .inputvalue .inputline{float:left;width:20px;height:33px;line-height: 30px;}
+.homeline2 .rightsearchbtn .inputvalue .inputtxt{height:33px;line-height: 30px;}
+.homeline2 .selectitem { float: left; margin-left: 70px; margin-top: 13px;height:33px;}
+.homeline2 .selectitem .imgs {cursor:pointer; float: left; padding: 0 3px; height: 24px;}
+.homeline2 .selectitem .imgs img { margin-top: 3px; }
+.homeline2 .selectitembtn { float: left; margin-left: 370px; margin-top: 5px;height:33px;}
+.homeline2 .selectitembtn .imgs {cursor:pointer;}
+
+
+.homeline3 { clear: both; margin: 0 auto; width: 1180px; height: 429px; background: #FFFFFF; overflow: hidden; }
+.homeline3 .left { float: left; width: 321px; height: 429px; background: url(/images/home/line3/1.jpg); overflow: hidden; }
+.homeline3 .center { float: left; width: 259px; height: 429px; overflow: hidden; }
+.homeline3 .right { float: left; width: 600px; height: 429px; overflow: hidden; }
+.homeline3 .righttop { float: left; width: 600px; height: 211px; overflow: hidden; }
+.homeline3 .righttopleft { float: left; width: 299px; height: 211px; overflow: hidden; }
+.homeline3 .righttopright { float: left; width: 301px; height: 211px; overflow: hidden; }
+.homeline3 .rightbottom { float: left; width: 600px; height: 218px; overflow: hidden; }
+.homeline3 .rightbottomleft { float: left; width: 200px; height: 218px; overflow: hidden; }
+.homeline3 .rightbottomcenter { float: left; width: 195px; height: 218px; overflow: hidden; }
+.homeline3 .rightbottomright { float: left; width: 205px; height: 218px; overflow: hidden; }
+
+.homeline4 { clear: both; margin: 0 auto; width: 1180px; height: 116px; background: #FFFFFF; overflow: hidden; }
+.homeline4 div { float: left; }
+
+.homeline5 { clear: both; margin: 0 auto; width: 1180px; height: 429px; background: #FFFFFF; overflow: hidden; }
+.homeline5 .left { float: left; width: 320px; height: 429px; background: url(/images/home/line5/1.jpg); overflow: hidden; }
+.homeline5 .center { float: left; width: 598px; height: 429px; overflow: hidden; }
+.homeline5 .right { float: left; width: 262px; height: 429px; overflow: hidden; }
+.homeline5 .centertop { float: left; width: 598px; height: 211px; overflow: hidden; }
+.homeline5 .centertopleft { float: left; width: 301px; height: 211px; overflow: hidden; }
+.homeline5 .centertopright { float: left; width: 297px; height: 211px; overflow: hidden; }
+.homeline5 .centerbottom { float: left; width: 598px; height: 218px; overflow: hidden; }
+.homeline5 .centerbottomleft { float: left; width: 202px; height: 218px; overflow: hidden; }
+.homeline5 .centerbottomcenter { float: left; width: 195px; height: 218px; overflow: hidden; }
+.homeline5 .centerbottomright { float: left; width: 201px; height: 218px; overflow: hidden; }
+
+.homeline6 { clear: both; margin: 0 auto; width: 1180px; height: 429px; background: #FFFFFF; overflow: hidden; }
+.homeline6 .left { float: left; width: 321px; height: 429px; background: url(/images/home/line6/1.jpg); overflow: hidden; }
+.homeline6 .center { float: left; width: 259px; height: 429px; overflow: hidden; }
+.homeline6 .right { float: left; width: 600px; height: 429px; overflow: hidden; }
+.homeline6 .righttop { float: left; width: 600px; height: 211px; overflow: hidden; }
+.homeline6 .righttopleft { float: left; width: 301px; height: 211px; overflow: hidden; }
+.homeline6 .righttopright { float: left; width: 299px; height: 211px; overflow: hidden; }
+.homeline6 .rightbottom { float: left; width: 600px; height: 218px; overflow: hidden; }
+.homeline6 .rightbottomleft { float: left; width: 200px; height: 218px; overflow: hidden; }
+.homeline6 .rightbottomcenter { float: left; width: 197px; height: 218px; overflow: hidden; }
+.homeline6 .rightbottomright { float: left; width: 203px; height: 218px; overflow: hidden; }
+
+.homeline7 { clear: both; margin: 0 auto; width: 1180px; height: 116px; background: #FFFFFF; overflow: hidden; }
+
+.homeline8 { clear: both; margin: 0 auto; width: 1180px; height: 429px; background: #FFFFFF; overflow: hidden; }
+.homeline8 .left { float: left; width: 320px; height: 429px; background: url(/images/home/line8/1.jpg); overflow: hidden; }
+.homeline8 .center { float: left; width: 598px; height: 429px; overflow: hidden; }
+.homeline8 .right { float: left; width: 262px; height: 429px; overflow: hidden; }
+.homeline8 .centertop { float: left; width: 598px; height: 211px; overflow: hidden; }
+.homeline8 .centertopleft { float: left; width: 300px; height: 211px; overflow: hidden; }
+.homeline8 .centertopright { float: left; width: 298px; height: 211px; overflow: hidden; }
+.homeline8 .centerbottom { float: left; width: 598px; height: 218px; overflow: hidden; }
+.homeline8 .centerbottomleft { float: left; width: 200px; height: 218px; overflow: hidden; }
+.homeline8 .centerbottomcenter { float: left; width: 196px; height: 218px; overflow: hidden; }
+.homeline8 .centerbottomright { float: left; width: 202px; height: 218px; overflow: hidden; }
+
+.homeline9 { clear: both; margin: 0 auto; width: 1180px; height: 290px; background: #FFFFFF; overflow: hidden; }
+.homeline9 .linewrap { float: left; margin-right: 10px; width: 320px; height: 288px; border: 1px solid #E3E3E3; }
+.homeline9 .linewrap .wraphead { float: left; width: 320px; height: 33px; line-height: 33px; text-indent: 15px; font-weight: bold; background: url(/images/home/line9/headbg.jpg); }
+.homeline9 .linewrap .wrapmain { float: left; padding: 5px; width: 310px; height: 245px; }
+.homeline9 .linewrap .wrapmain .mainimg { float: left; width: 310px; height: 95px; }
+.homeline9 .linewrap .wrapmain .maintext { float: left; margin-top: 10px; width: 310px; height: 135px; }
+.homeline9 .linewrap .wrapmain .maintext div { float: left; padding-left: 10px; width: 300px; height: 27px; line-height: 27px; }
+.homeline9 .lineads { float: left; width: 184px; height: 290px; }
+
+.homeline10 { clear: both; margin: 0 auto; width: 1180px; height: 429px; background: #FFFFFF; overflow: hidden; }
+.homeline10 .left { float: left; width: 320px; height: 429px; background: url(/images/home/line10/1.jpg); overflow: hidden; }
+.homeline10 .center { float: left; width: 598px; height: 429px; overflow: hidden; }
+.homeline10 .right { float: left; width: 262px; height: 429px; overflow: hidden; }
+.homeline10 .centertop { float: left; width: 598px; height: 211px; overflow: hidden; }
+.homeline10 .centertopleft { float: left; width: 300px; height: 211px; overflow: hidden; }
+.homeline10 .centertopright { float: left; width: 298px; height: 211px; overflow: hidden; }
+.homeline10 .centerbottom { float: left; width: 598px; height: 218px; overflow: hidden; }
+.homeline10 .centerbottomleft { float: left; width: 201px; height: 218px; overflow: hidden; }
+.homeline10 .centerbottomcenter { float: left; width: 196px; height: 218px; overflow: hidden; }
+.homeline10 .centerbottomright { float: left; width: 201px; height: 218px; overflow: hidden; }
+
+.homeimgs { float: left; width: 320px; height: 180px; }
+.hometype { float: left; padding: 12px 0 5px 0; width: 200px; height: 120px; }
+.hometype div { float: left; width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+.homeprice { float: left; width: 200px; height: 100px; }
+.homeprice div { float: left; width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+
+

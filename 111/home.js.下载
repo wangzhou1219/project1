@@ -1,0 +1,9 @@
+﻿function ShowHomeSlider() {
+    $(document).ready(function () {
+        $(".sliderwrap").flexslider({
+            directionNav: false,
+            pauseOnAction: false,
+            selector: ".wrapslider > li",
+        });
+    });
+}

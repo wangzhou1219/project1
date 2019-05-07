@@ -1,0 +1,508 @@
+.imgs {
+  height: 420px;
+  position: relative;
+  overflow: hidden; }
+  .imgs ul {
+    position: relative;
+    overflow: hidden;
+    height: 420px; }
+    .imgs ul li {
+      float: left;
+      opacity: 1;
+      position: absolute;
+      left: 50%;
+      margin-left: -960px; }
+    .imgs ul li:nth-of-type(1) {
+      z-index: 2; }
+    .imgs ul li:nth-of-type(2) {
+      z-index: 1; }
+  .imgs ol {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    z-index: 2;
+    text-align: center; }
+    .imgs ol li {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      background: #000;
+      margin: 0 5px; }
+    .imgs ol li:nth-of-type(1) {
+      background: url(../image/dot.png) no-repeat 0 0; }
+    .imgs ol li:nth-of-type(2) {
+      background: url(../image/dot.png) no-repeat right 0; }
+
+.com1 {
+  margin: 0 auto;
+  padding-top: 18px;
+  width: 1180px;
+  height: 210px;
+  overflow: hidden; }
+  .com1 .com1left {
+    float: left;
+    padding: 4px;
+    width: 310px;
+    height: 200px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    overflow: hidden; }
+    .com1 .com1left a {
+      color: #222222; }
+      .com1 .com1left a:hover {
+        color: #DB3962; }
+  .com1 .com1cen {
+    float: left;
+    margin-left: 15px;
+    padding: 4px;
+    width: 500px;
+    height: 200px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    overflow: hidden; }
+    .com1 .com1cen a {
+      color: #222222; }
+      .com1 .com1cen a:hover {
+        color: #DB3962; }
+  .com1 .com1right {
+    float: left;
+    margin-left: 15px;
+    padding: 4px;
+    width: 310px;
+    height: 200px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    overflow: hidden; }
+    .com1 .com1right a {
+      color: #222222; }
+      .com1 .com1right a:hover {
+        color: #DB3962; }
+
+.line1 {
+  clear: both;
+  margin: 0 auto;
+  width: 1180px;
+  height: 18px;
+  background: url(../image/line.jpg); }
+
+.com2 {
+  margin: 0 auto;
+  width: 1180px;
+  height: 159px;
+  overflow: hidden;
+  border: 1px solid #dddddd;
+  background: #f9f9f9; }
+  .com2 .com2left {
+    width: 616px;
+    height: 159px;
+    float: left; }
+    .com2 .com2left img {
+      margin-top: 20px;
+      margin-left: 15px; }
+  .com2 .com2right {
+    width: 562px;
+    height: 159px;
+    float: left;
+    background: url(../image/bg.png); }
+    .com2 .com2right input {
+      width: 40px;
+      height: 15px;
+      padding: 1px 0px;
+      font: 400 13.3333px Arial;
+      outline: none; }
+    .com2 .com2right .com21 {
+      margin-top: 20px;
+      float: left;
+      width: 215px;
+      height: 33px; }
+      .com2 .com2right .com21 .cominp1 {
+        float: left;
+        width: 50px;
+        height: 33px;
+        margin-left: 70px;
+        margin-top: 5px; }
+      .com2 .com2right .com21 .inputline {
+        float: left;
+        width: 20px;
+        height: 33px;
+        line-height: 30px; }
+      .com2 .com2right .com21 .cominp2 {
+        float: left;
+        width: 50px;
+        height: 33px;
+        margin-top: 5px; }
+      .com2 .com2right .com21 .inputtxt {
+        height: 33px;
+        line-height: 30px; }
+    .com2 .com2right .com22 {
+      margin-top: 22px;
+      margin-left: 76px;
+      float: left;
+      height: 33px; }
+      .com2 .com2right .com22 .comimg {
+        cursor: pointer;
+        float: left;
+        padding: 0 3px;
+        height: 24px; }
+        .com2 .com2right .com22 .comimg img {
+          margin-top: 3px; }
+    .com2 .com2right .com23 {
+      float: left;
+      margin-left: 70px;
+      margin-top: 13px;
+      height: 33px; }
+      .com2 .com2right .com23 .comimg {
+        cursor: pointer;
+        float: left;
+        padding: 0 3px;
+        height: 24px; }
+        .com2 .com2right .com23 .comimg img {
+          margin-top: 3px; }
+    .com2 .com2right .com24 {
+      float: left;
+      margin-left: 70px;
+      margin-top: 13px;
+      height: 33px; }
+      .com2 .com2right .com24 .comimg {
+        cursor: pointer;
+        float: left;
+        padding: 0 3px;
+        height: 24px; }
+        .com2 .com2right .com24 .comimg img {
+          margin-top: 3px; }
+    .com2 .com2right .com25 {
+      float: left;
+      margin-left: 370px;
+      margin-top: 5px;
+      height: 33px; }
+
+.com3 {
+  clear: both;
+  margin: 0 auto;
+  width: 1180px;
+  height: 429px;
+  overflow: hidden; }
+  .com3 .com3left {
+    float: left;
+    width: 321px;
+    height: 429px;
+    background: url(../image/1.jpg);
+    overflow: hidden; }
+    .com3 .com3left .com3lt {
+      float: left;
+      width: 320px;
+      height: 180px; }
+    .com3 .com3left .com3lc {
+      float: left;
+      width: 200px;
+      height: 120px;
+      padding: 12px 0 5px 0; }
+      .com3 .com3left .com3lc li {
+        float: left;
+        width: 200px;
+        height: 24px;
+        line-height: 24px;
+        text-indent: 30px; }
+    .com3 .com3left .com3lb {
+      float: left;
+      width: 200px;
+      height: 100px; }
+      .com3 .com3left .com3lb li {
+        float: left;
+        width: 200px;
+        height: 24px;
+        line-height: 24px;
+        text-indent: 30px; }
+  .com3 .com3cen {
+    float: left;
+    width: 259px;
+    height: 429px;
+    overflow: hidden; }
+  .com3 .com3right {
+    float: left;
+    width: 600px;
+    height: 429px;
+    overflow: hidden; }
+    .com3 .com3right .com3rt {
+      float: left;
+      width: 600px;
+      height: 211px;
+      overflow: hidden; }
+      .com3 .com3right .com3rt .com3rt1 {
+        float: left;
+        width: 299px;
+        height: 211px;
+        overflow: hidden; }
+      .com3 .com3right .com3rt .com3rt2 {
+        float: left;
+        width: 301px;
+        height: 211px;
+        overflow: hidden; }
+    .com3 .com3right .com3rb {
+      float: left;
+      width: 600px;
+      height: 218px;
+      overflow: hidden; }
+      .com3 .com3right .com3rb .com3rb1 {
+        float: left;
+        width: 200px;
+        height: 218px;
+        overflow: hidden; }
+      .com3 .com3right .com3rb .com3rb2 {
+        float: left;
+        width: 195px;
+        height: 218px;
+        overflow: hidden; }
+      .com3 .com3right .com3rb .com3rb3 {
+        float: left;
+        width: 205px;
+        height: 218px;
+        overflow: hidden; }
+
+.com4 {
+  clear: both;
+  margin: 0 auto;
+  width: 1180px;
+  height: 116px;
+  background: #FFFFFF;
+  overflow: hidden; }
+
+.com3 .bgchange {
+  background: url(../image/15.jpg); }
+
+.com3 .bgchange1 {
+  background: url(../image/16.jpg); }
+
+.com5 {
+  clear: both;
+  margin: 0 auto;
+  width: 1180px;
+  height: 290px;
+  background: #FFFFFF;
+  overflow: hidden; }
+  .com5 .com5info {
+    float: left;
+    margin-right: 10px;
+    width: 320px;
+    height: 288px;
+    border: 1px solid #E3E3E3; }
+    .com5 .com5info .com5top {
+      float: left;
+      width: 320px;
+      height: 33px;
+      line-height: 33px;
+      text-indent: 15px;
+      font-weight: bold;
+      background: url(../image/headbg.jpg); }
+    .com5 .com5info .com5bot {
+      float: left;
+      padding: 5px;
+      width: 310px;
+      height: 245px; }
+      .com5 .com5info .com5bot .com5b1 {
+        float: left;
+        width: 310px;
+        height: 95px; }
+      .com5 .com5info .com5bot .com5b2 {
+        float: left;
+        margin-top: 10px;
+        width: 310px;
+        height: 135px; }
+        .com5 .com5info .com5bot .com5b2 li {
+          padding-left: 10px;
+          width: 300px;
+          height: 27px;
+          line-height: 27px;
+          list-style: disc inside; }
+  .com5 .com5img {
+    float: left;
+    width: 184px;
+    height: 290px; }
+
+.com6 {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 1180px;
+  height: 260px; }
+  .com6 .city {
+    float: left;
+    width: 1180px;
+    height: 35px;
+    overflow: hidden;
+    background: url(../image/line.gif); }
+    .com6 .city .text {
+      float: left;
+      padding-left: 15px;
+      width: 385px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 18px;
+      font-weight: bold; }
+    .com6 .city ul {
+      float: left; }
+      .com6 .city ul li {
+        float: left;
+        width: 65px;
+        height: 35px;
+        line-height: 35px;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center; }
+      .com6 .city ul .select {
+        color: #8A0003;
+        background: url(../image/select.gif); }
+  .com6 .map {
+    float: left;
+    width: 679px;
+    height: 225px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: url(../image/map.png) no-repeat;
+    border-left: 1px solid #6B6B6B; }
+    .com6 .map .local {
+      padding: 35px 0 25px 0;
+      font-size: 20px;
+      font-weight: bold; }
+  .com6 .shop {
+    float: left;
+    width: 500px;
+    height: 225px;
+    overflow: hidden; }
+
+.cityline {
+  clear: both;
+  margin: 0 auto;
+  width: 1180px;
+  height: 30px;
+  background: url(../image/linebg.jpg); }
+
+.security {
+  margin: 0 auto;
+  width: 100%;
+  height: 85px;
+  background: #FFFFFF url(../image/security.jpg) center center no-repeat; }
+
+.shouhou {
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 100%;
+  height: 130px;
+  border-top: 1px solid #CCCCCC;
+  background: #E9E9E9; }
+  .shouhou .main {
+    margin: 0 auto;
+    width: 1178px;
+    height: 130px;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    background: url(../image/shouhou.png) no-repeat; }
+    .shouhou .main li {
+      float: left;
+      width: 195px;
+      height: 130px;
+      border-right: 1px solid #CCCCCC; }
+      .shouhou .main li div {
+        float: left;
+        padding-left: 50px;
+        padding-top: 15px; }
+        .shouhou .main li div span {
+          float: left;
+          width: 145px;
+          font-weight: bold;
+          line-height: 30px; }
+        .shouhou .main li div a {
+          float: left;
+          width: 145px;
+          line-height: 24px;
+          color: #555555; }
+          .shouhou .main li div a:hover {
+            color: #DB3962; }
+
+.foot1 {
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 100%;
+  height: 66px;
+  background: #333333; }
+  .foot1 .foot1cen {
+    margin: 0 auto;
+    padding: 0 5px;
+    width: 1170px;
+    height: 80px;
+    color: #B9B9B9; }
+    .foot1 .foot1cen .foot1left {
+      float: left;
+      width: 1000px; }
+      .foot1 .foot1cen .foot1left .address {
+        width: 1000px;
+        height: 35px;
+        line-height: 35px; }
+      .foot1 .foot1cen .foot1left .copyright {
+        width: 1000px;
+        height: 30px;
+        line-height: 30px; }
+    .foot1 .foot1cen .foot1right {
+      float: left;
+      width: 170px;
+      text-align: right; }
+      .foot1 .foot1cen .foot1right div {
+        width: 170px;
+        height: 35px;
+        line-height: 35px; }
+
+.foot2 {
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 100%;
+  height: 53px; }
+  .foot2 .foot2cen {
+    margin: 0 auto;
+    width: 1180px;
+    height: 53px;
+    background: url(../image/footicon.gif);
+    overflow: hidden; }
+    .foot2 .foot2cen a {
+      margin-right: 23px;
+      float: left;
+      width: 123px;
+      height: 53px; }
+
+.foot3 {
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 100%;
+  height: 105px;
+  border-top: 1px solid #CCCCCC;
+  color: #999999;
+  background: #F0F0F0; }
+  .foot3 .foot3cen {
+    margin: 0 auto;
+    padding: 0 5px;
+    width: 1170px;
+    height: 80px;
+    line-height: 25px; }
+    .foot3 .foot3cen .foot3left {
+      float: left;
+      width: 70px;
+      font-weight: bold; }
+    .foot3 .foot3cen .foot3right {
+      float: left;
+      width: 1100px; }
+      .foot3 .foot3cen .foot3right a {
+        margin-right: 8px;
+        white-space: nowrap;
+        color: #888888; }
+        .foot3 .foot3cen .foot3right a:hover {
+          color: #DB3962; }
+  .foot3 .link {
+    margin: 0 auto;
+    padding: 0 5px;
+    width: 1170px;
+    height: 25px;
+    line-height: 25px;
+    text-align: right; }

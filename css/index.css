@@ -1,4 +1,4 @@
-body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,input,form,a,p,textarea,header{
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,input,form,a,p,textarea,header,ol{
     margin:0;
     padding:0;
     font-family: "microsoft yahei";
@@ -38,7 +38,7 @@ header{height:38px;background: #F3F3F3;}
 .menuercen{height:38px;margin:0 auto;width:1180px;}
 .menuercen .allmen{float: left;width: 200px;position: relative;}
 .menuercen .allmen .p{width:183px;height:38px;background:url(../image/icon.png) no-repeat 160px 0 #C11E20;font-size: 14px;font-weight: bold;color: #FFFFFF;line-height: 38px;padding-left:17px;}
-.menuercen .allmen ul{position:absolute;top: 38px;left: 0;background: #312D2D;width:200px;display: none;}
+.menuercen .allmen ul{position:absolute;top: 38px;left: 0;background: #312D2D;width:200px;display: none;z-index: 999;}
 .menuercen .allmen ul a{color:#fff;margin-left:12px;font-size: 12px;font-weight: normal;}
 .menuercen .allmen ul a:hover{ color: #DB3962;}
 .menuercen img{display: block;float: right;}
