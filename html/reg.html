@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>免费注册-戴欧妮钻石</title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+    	<link rel="stylesheet" type="text/css" href="../css/index2.css"/>
+	</head>
+	<body>
+		<div id="hreg"></div>
+		<div class="regmain">
+			<div class="regcen">
+				<div class="regright">
+					<div class="reghead"><a href="login.html">会员登录</a></div>
+					<form method="post">						
+						<input class="phone" id="phone" type="text" value="" placeholder="11位数字"/>
+						<div class="space" id="phonere"></div>
+						<input class="yanzheng" type="text" value="" />
+						<img class="numimg" id="numimg" src="../image/81.jpg"/><a class="nextnum" id="next" href="javascript:;">换一张</a>
+						<div class="space"></div>
+						<input class="duanxin" id="duanxin" type="text" value="" placeholder="6位数字"/>
+						<a class="getnum" href="javascript:;">获取验证码</a>
+						<div class="space" id="duanxinre"></div>
+						<input class="mima" id="mima1" type="password" value="" placeholder="6-20位必须包含字母数字"/>
+						<div class="space" id="mima1re"></div>
+						<input class="mima2" id="mima2" type="password" value="" placeholder="6-20位必须包含字母数字"/>
+						<div class="space" id="mima2re"></div>
+						<input class="xieyi" type="checkbox" checked="checked" value="" />
+						<div class="xieyiinfo">
+							我已阅读并同意《<a href="#">戴欧妮珠宝用户服务协议</a>》
+						</div>
+						<div class="space"></div>
+						<input class="sub" id="sub" type="submit" value=""/>    			
+					</form>					
+    			<div class="qqwei">
+    				<a href="#"><img src="../image/qq.png"/></a>
+    				<a href="#"><img src="../image/wb.gif""/></a>
+    				<a href="#"><img src="../image/zfb.gif""/></a>
+    			</div>
+				</div>
+			</div>
+		</div>
+		<div id="freg"></div>
+		<div id="regrig">			
+		</div>
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/reg.js"></script>
+<script type="text/javascript">
+    $("#hreg").load("headfoot.html #head");
+    $("#freg").load("headfoot.html #foot");
+    $("#regrig").load("headfoot.html #xuanfu");
+    $("#hreg").on("focus","#inp",function(){
+    	var oinp=document.getElementById("inp");
+		oinp.onfocus=function(){oinp.placeholder=""}
+		oinp.onblur=function(){oinp.placeholder="请输入型号或者名称"};
+    })
+
+	
+</script>

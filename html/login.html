@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>会员登录-戴欧妮钻石</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/index2.css"/>
+</head>
+<body>
+    <div id="hwrap"></div>
+    <div class="main">
+    	<div class="maincen">
+    		<div class="mainright">
+    			<div class="main1">
+    				<a href="reg.html">免费注册</a>
+    			</div>
+    			<form  method="get">   
+    				<input class="user" id="uphone" type="text" placeholder="11位数字"/>
+    				<div class="space" id="uphonere"></div>
+    				<input class="pwd" id="upwd" type="text" placeholder="6-20位必须包含字母数字"/>
+    				<div class="space" id="upwdre"></div>
+    				<input  class="chec" type="checkbox" value=""/>
+    				<p class="auto">自动登录</p><a class="forg" href="#">忘记密码 ?</a>
+    				<input class="but" id="but" type="submit" value=""/>
+    			</form>
+    			<div class="qqbao">
+    				<a href="#"><img src="../image/qq.png"/></a>
+    				<a href="#"><img src="../image/wb.gif""/></a>
+    				<a href="#"><img src="../image/zfb.gif""/></a>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div id="fwrap"></div>
+    <div id="loginright">
+    	
+    </div>
+</body>
+</html>
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="../js/reg.js"></script>
+<script src="../js/login.js"></script>
+<script type="text/javascript">
+    $("#hwrap").load("headfoot.html #head");
+    $("#fwrap").load("headfoot.html #foot");
+    $("#loginright").load("headfoot.html #xuanfu");
+        $("#hwrap").on("focus","#inp",function(){
+    	var oinp=document.getElementById("inp");
+		oinp.onfocus=function(){oinp.placeholder=""}
+		oinp.onblur=function(){oinp.placeholder="请输入型号或者名称"};
+    })
+</script>

@@ -588,3 +588,316 @@
         text-align: right;
     }
 }
+.space{
+        float: left;
+        margin-top: 3px;
+        margin-left: 150px;
+        width: 200px;
+        height: 18px;
+        color: #DB3962;
+                }
+.main{
+    width: 100%;
+    height: 588px;
+    background: #FBEDEC url(../image/login.jpg) no-repeat center center;
+    .maincen{
+        margin: 0 auto;
+        width: 1180px;
+        height:588px;
+        .mainright{
+                float: right;
+                width: 518px;
+                height: 588px;
+                .main1{
+                        float: left;
+                        margin-top: 112px;
+                        width: 385px;
+                        height: 25px;
+                        font-size: 14px;
+                        text-align: right;
+                        a{
+                                color: #DB3962;
+                        }
+                }
+                form{
+                    width:400px;
+                }
+                .user{
+                    float: left;
+                    margin-top: 41px;
+                    margin-left: 150px;
+                    width: 150px;
+                     padding: 1px 3px;
+                    border: none;
+                    height: 28px;
+                    line-height: 28px;
+                    font-size: 13px;
+                    outline: none;
+                }
+                
+                .pwd{
+                    float: left;
+                    margin-top: 3px;
+                    margin-left: 150px;
+                    width: 150px;
+                     padding: 1px 3px;
+                    border: none;
+                    height: 28px;
+                    line-height: 28px;
+                    font-size: 13px;
+                    outline: none;
+                }
+                .chec{
+                    float: left;
+                    margin-left: 60px;
+                    width: 13px;
+                    height: 13px;
+                    margin-top:5px;
+                    margin-right:3px;
+                }
+                .auto{
+                    float: left;
+                    width: 192px;
+                    height: 24px;
+                    font-size: 14px;
+                }
+                .forg{
+                    float: left;
+                    width: 70px;
+                    height: 24px;
+                    font-size: 14px;
+                }
+                .but{
+                    float: left;
+                    margin-left: 60px;
+                    width: 321px;
+                    height: 41px;
+                    background: url(../image/but.png) no-repeat;
+                    cursor: pointer;
+                    outline: none;
+                    border: none;
+                    margin-top:10px;
+                }
+                .qqbao{
+                    float: left;
+                    margin-left: 49px;
+                    margin-top: 48px;
+                    width: 330px;
+                    height: 75px;
+                    text-align: center;
+                    img{
+                        margin: 0 9px;
+                    }
+                    a:nth-of-type(1) img{
+                        margin: 0 9px 12px 9px;
+                    }
+                    
+                }
+            }
+            
+        }
+    }
+
+.regmain{
+    width: 100%;
+    height: 606px;
+    background: #FBEDEC url(../image/reg.jpg) no-repeat center center;
+    .regcen{
+            margin: 0 auto;
+            width: 1180px;
+            height: 606px;
+            .regright{
+                float: right;
+                width: 518px;
+                height: 606px;
+                .reghead{
+                    float: left;
+                    margin-top: 70px;
+                    width: 385px;
+                    height: 25px;
+                    font-size: 14px;
+                    text-align: right;
+                    a{
+                        color: #DB3962;
+                    }
+                }
+                form{
+                    width:400px;
+                    height:500px;
+                    .phone{
+                        float: left;
+                        margin-top: 42px;
+                        margin-left:150px;
+                        width: 150px;
+                        padding: 1px 3px;
+                        border: none;
+                        height: 28px;
+                        line-height: 28px;
+                        font-size: 14px;
+                        outline: none;
+                    }
+                    .yanzheng{
+                        float: left;
+                        margin-top: 3px;
+                        margin-left: 150px;
+                        width: 80px;
+                        padding: 1px 3px;
+                        border: none;
+                        height: 28px;
+                        line-height: 28px;
+                        font-size: 14px;
+                        outline: none;
+                    }
+                    .duanxin{
+                            float: left;
+                            margin-top: 5px;
+                            margin-left: 150px;
+                            width: 71px;
+                            padding: 1px 3px;
+                            border: none;
+                            height: 28px;
+                            line-height: 28px;
+                            font-size: 14px;
+                            outline: none;
+                    }
+                    .numimg{
+                            float: left;
+                            width: 60px;
+                            height: 30px;
+                            line-height: 30px;
+                            font-size: 13px;
+                            text-align: center;
+                            cursor: pointer;
+                            margin-left:3px;
+                            margin-top:3px;
+                            
+                    }
+                    .nextnum{
+                        float:left;
+                        width:38px;
+                        height:25px;
+                        color:#DB3962;
+                        margin-left:5px;
+                        margin-top:8px;
+                        background: #FBFBFB;
+                    }
+                    .getnum{
+                        float: left;
+                        width: 100px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 13px;
+                        text-align: left;
+                        margin-left:22px;
+                        margin-top:3px;
+                        &:hover{
+                            color:#222222;
+                        }
+                    }
+                    .mima{
+                        float: left;
+                        margin-top: 3px;
+                        margin-left: 150px;
+                        width: 150px;
+                        padding: 1px 3px;
+                        border: none;
+                        height: 28px;
+                        line-height: 28px;
+                        font-size: 13px;
+                        outline: none;
+                    }
+                    .mima2{
+                            float: left;
+                            margin-top: 3px;
+                            margin-left: 150px;
+                            width: 150px;
+                            padding: 1px 3px;
+                            border: none;
+                            height: 28px;
+                            line-height: 28px;
+                            font-size: 13px;
+                            outline: none;
+                    }
+                    .xieyi{
+                            float: left;
+                            margin-left: 60px;
+                            width: 13px;
+                            height: 13px;
+                            margin-top:3px;
+                            margin-right:2px;
+                    }
+                    .xieyiinfo{
+                        float: left;
+                    }
+                    .sub{
+                    float: left;
+                    margin-left: 60px;
+                    width: 321px;
+                    height: 41px;
+                    background: url(../image/but.png) no-repeat;
+                    cursor: pointer;
+                    outline: none;
+                    border: none;
+                    margin-top:-6px;
+                    }
+                }
+                .qqwei{
+                    float: left;
+                    margin-left: 42px;
+                    margin-top: 13px;
+                    width: 330px;
+                    height: 75px;
+                    text-align: center;
+                    img{
+                        margin: 0 9px;
+                    }
+                    a:nth-of-type(1) img{
+                        margin: 0 9px 12px 9px;
+                    }
+                }
+            }
+    }
+}
+.kefu{
+    width: 64px;
+    position: fixed;
+    right: 5px;
+    bottom: 100px;
+    z-index: 30;
+    margin:12px 0;
+    padding-left:40px;
+    a{
+        width: 64px;
+        height: 54px;
+        background: #c11e20;
+        margin-top: 2px;
+        position: relative;
+        display: block;
+        color:#fff;
+        text-align: center;
+        padding-top:10px;
+        &:hover{
+            color:#ffffff;
+            background: #D0383A;
+        }
+        img{
+                display: block;
+                margin: 0 auto;
+        }
+        p{
+            margin-top:8px;
+        }
+    }
+    .ewm{
+        position: absolute;
+        left: -154px;
+        top: -40px;
+        display:none;
+        border: 1px solid transparent;
+    }
+    .fewm:hover{
+         .ewm{
+              display: block;
+         }        
+    }
+}
