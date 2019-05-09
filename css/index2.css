@@ -772,3 +772,417 @@
     border: 1px solid transparent; }
   .kefu .fewm:hover .ewm {
     display: block; }
+
+.bigsec {
+  clear: both;
+  width: 100%;
+  height: 195px;
+  background: #F3F3F3; }
+  .bigsec .bigcen {
+    margin: 0 auto;
+    width: 1180px;
+    height: 195px;
+    overflow: hidden; }
+
+.listmain {
+  clear: both;
+  margin: 0 auto;
+  padding-left: 10px;
+  width: 1170px;
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden; }
+
+.seccen {
+  clear: both;
+  margin: 0 auto;
+  width: 1180px;
+  background: #FFFFFF;
+  overflow: hidden; }
+  .seccen .secleft {
+    float: left;
+    width: 242px;
+    overflow: hidden; }
+    .seccen .secleft .secleft1 {
+      float: left;
+      width: 240px;
+      border: 1px solid #CECECE;
+      overflow: hidden; }
+      .seccen .secleft .secleft1 h4 {
+        float: left;
+        width: 240px;
+        height: 35px;
+        line-height: 35px;
+        background: url(../image/headbg.jpg);
+        text-indent: 10px;
+        overflow: hidden;
+        font-weight: bold; }
+      .seccen .secleft .secleft1 .manyc {
+        float: left;
+        margin: 0;
+        padding: 15px 19px 0px 19px;
+        width: 202px; }
+        .seccen .secleft .secleft1 .manyc p {
+          float: left;
+          width: 202px;
+          height: 35px;
+          line-height: 20px;
+          font-weight: bold;
+          font-size: 14px; }
+          .seccen .secleft .secleft1 .manyc p span {
+            padding: 0 9px;
+            background: url(../image/jia.png) no-repeat 0 1px; }
+          .seccen .secleft .secleft1 .manyc p .fshowl {
+            padding: 0 9px;
+            background: url(../image/jian.png) no-repeat 0 1px; }
+          .seccen .secleft .secleft1 .manyc p .ccr {
+            color: red;
+            font-weight: 600; }
+      .seccen .secleft .secleft1 .pig {
+        padding-top: 0px; }
+      .seccen .secleft .secleft1 ul {
+        float: left;
+        margin-bottom: 15px;
+        padding: 5px 0;
+        width: 202px;
+        line-height: 30px;
+        border-top: 1px dashed #D1D1D1;
+        border-bottom: 1px dashed #D1D1D1;
+        background: #FAFAFA; }
+        .seccen .secleft .secleft1 ul li {
+          float: left;
+          padding-left: 21px;
+          width: 80px; }
+    .seccen .secleft .secleft2 {
+      margin-top: 20px;
+      width: 240px;
+      border: 1px solid #CECECE;
+      overflow: hidden;
+      float: left; }
+      .seccen .secleft .secleft2 h4 {
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 240px;
+        height: 35px;
+        line-height: 35px;
+        background: url(../image/headbg.jpg);
+        text-indent: 10px;
+        overflow: hidden;
+        font-weight: bold; }
+      .seccen .secleft .secleft2 .manyi {
+        float: left;
+        padding: 19px 19px 6px 19px;
+        width: 202px; }
+        .seccen .secleft .secleft2 .manyi .mimg {
+          float: left;
+          width: 200px;
+          height: 200px; }
+          .seccen .secleft .secleft2 .manyi .mimg img {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #D2D2D2; }
+        .seccen .secleft .secleft2 .manyi h5 {
+          float: left;
+          width: 202px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          overflow: hidden;
+          font-weight: 100; }
+        .seccen .secleft .secleft2 .manyi p {
+          float: left;
+          width: 202px;
+          height: 35px;
+          text-align: center;
+          overflow: hidden; }
+          .seccen .secleft .secleft2 .manyi p span {
+            font-size: 14px;
+            color: #DB3962; }
+      .seccen .secleft .secleft2 .cat {
+        padding-top: 0px; }
+    .seccen .secleft .secleft3 {
+      float: left;
+      margin-top: 10px;
+      padding: 0;
+      width: 242px;
+      overflow: hidden; }
+      .seccen .secleft .secleft3 .manyg {
+        float: left;
+        margin-top: 10px;
+        width: 240px;
+        border: 1px solid #D2D2D2; }
+  .seccen .secright {
+    float: right;
+    width: 922px; }
+    .seccen .secright .secright1 {
+      float: left;
+      padding: 10px 0;
+      width: 920px;
+      border: 1px solid #CECECE;
+      background: #F8F8F8;
+      overflow: hidden; }
+      .seccen .secright .secright1 .selectwrap {
+        clear: both;
+        margin: 0 auto;
+        width: 900px;
+        height: 40px;
+        border-bottom: 1px dashed #CECECE; }
+        .seccen .secright .secright1 .selectwrap .wraphead {
+          float: left;
+          padding-left: 10px;
+          width: 50px;
+          height: 40px;
+          line-height: 40px;
+          color: #DB3962; }
+        .seccen .secright .secright1 .selectwrap .wrapitem {
+          float: left;
+          height: 40px;
+          line-height: 40px; }
+          .seccen .secright .secright1 .selectwrap .wrapitem .span {
+            float: left;
+            padding: 0 15px; }
+          .seccen .secright .secright1 .selectwrap .wrapitem .w030 {
+            float: left;
+            width: 30px; }
+          .seccen .secright .secright1 .selectwrap .wrapitem .w055 {
+            float: left;
+            width: 60px; }
+          .seccen .secright .secright1 .selectwrap .wrapitem .w250 {
+            float: left;
+            width: 250px; }
+          .seccen .secright .secright1 .selectwrap .wrapitem .w040 {
+            float: left;
+            width: 64px; }
+    .seccen .secright .secright2 {
+      float: left;
+      margin-top: 20px;
+      padding: 0;
+      width: 920px;
+      height: 33px;
+      line-height: 33px;
+      border: 1px solid #CECECE;
+      background: url(../image/headbg.jpg);
+      overflow: hidden; }
+      .seccen .secright .secright2 .headeritem {
+        float: left;
+        width: 70px;
+        height: 35px;
+        text-align: center; }
+      .seccen .secright .secright2 .headerline {
+        float: left;
+        width: 12px;
+        height: 35px;
+        background: url(../image/linebg.png); }
+    .seccen .secright .secright3 {
+      float: left;
+      margin-top: 20px;
+      padding: 0;
+      width: 921px;
+      border-top: 1px solid #CECECE;
+      border-left: 1px solid #CECECE;
+      overflow: hidden; }
+      .seccen .secright .secright3 .mitem {
+        float: left;
+        width: 306px;
+        height: 290px;
+        border-right: 1px solid #CECECE;
+        border-bottom: 1px solid #CECECE;
+        overflow: hidden; }
+        .seccen .secright .secright3 .mitem .itemimg {
+          margin: 0 auto;
+          width: 200px;
+          height: 210px; }
+          .seccen .secright .secright3 .mitem .itemimg img {
+            width: 200px;
+            height: 200px;
+            border: none;
+            margin: 10px; }
+        .seccen .secright .secright3 .mitem .itemname {
+          float: left;
+          width: 306px;
+          height: 40px;
+          line-height: 30px;
+          font-size: 14px;
+          text-align: center;
+          overflow: hidden; }
+        .seccen .secright .secright3 .mitem .itemprice {
+          float: left;
+          width: 306px;
+          height: 40px;
+          background: #F8F8F8;
+          overflow: hidden; }
+          .seccen .secright .secright3 .mitem .itemprice .pricemarket {
+            float: left;
+            padding-left: 13px;
+            width: 140px;
+            height: 40px;
+            line-height: 40px; }
+          .seccen .secright .secright3 .mitem .itemprice .pricemember {
+            float: right;
+            padding-right: 13px;
+            width: 140px;
+            height: 40px;
+            line-height: 40px;
+            text-align: right; }
+
+.deline {
+  clear: both;
+  height: 0; }
+
+.de {
+  background: #f1f1f1; }
+  .de .demain {
+    width: 1180px;
+    margin: 0 auto; }
+    .de .demain .de1 {
+      height: 50px;
+      line-height: 50px;
+      text-indent: 15px; }
+    .de .demain .de2 {
+      width: 1178px;
+      height: 641px;
+      border: 1px solid #D2D2D2;
+      background: #FFFFFF; }
+      .de .demain .de2 .itemline {
+        width: 1178px;
+        height: 15px;
+        border-top: 2px solid #FFC0C1; }
+      .de .demain .de2 #box {
+        float: left;
+        position: relative;
+        width: 450px;
+        height: 534px;
+        padding: 15px 25px;
+        border-right: 1px solid #D2D2D2; }
+      .de .demain .de2 #box ul {
+        overflow: hidden;
+        /*  border-top:1px solid #ccc;*/
+        position: absolute;
+        top: 420px;
+        left: 0;
+        width: 420px; }
+      .de .demain .de2 #box li {
+        float: left;
+        border-top: none; }
+      .de .demain .de2 .small {
+        width: 420px;
+        height: 420px;
+        background: red; }
+      .de .demain .de2 .small img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 420px;
+        height: 420px; }
+      .de .demain .de2 #bottom {
+        margin: 32px 0 0 50px; }
+      .de .demain .de2 #bottom li {
+        width: 95px;
+        height: 98px;
+        margin-top: 5px; }
+        .de .demain .de2 #bottom li img {
+          width: 90px;
+          height: 90px; }
+      .de .demain .de2 #big {
+        width: 422px;
+        height: 422px;
+        border: 1px solid #ccc;
+        overflow: hidden;
+        position: absolute;
+        top: 12px;
+        left: 465px;
+        display: none; }
+      .de .demain .de2 #mask {
+        width: 247px;
+        height: 247px;
+        background: #999999;
+        opacity: 0.5;
+        /*background: url(images/4m.jpg);*/
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none; }
+      .de .demain .de2 .bigImage {
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .de .demain .de2 #small {
+        position: relative;
+        cursor: move; }
+      .de .demain .de2 .right {
+        float: right;
+        padding: 15px 5px;
+        width: 600px;
+        height: 579px; }
+        .de .demain .de2 .right .right1 {
+          float: left;
+          width: 530px; }
+          .de .demain .de2 .right .right1 .rtext1 {
+            float: left;
+            width: 100px;
+            line-height: 38px;
+            text-align: right;
+            overflow: hidden; }
+          .de .demain .de2 .right .right1 .rtext2 {
+            font-size: 13px;
+            float: left;
+            width: 430px;
+            line-height: 38px; }
+          .de .demain .de2 .right .right1 #itemmarket {
+            text-decoration: line-through;
+            color: #666666;
+            font-size: 14px; }
+          .de .demain .de2 .right .right1 #itemprice {
+            color: #DB3962;
+            font-weight: 600; }
+          .de .demain .de2 .right .right1 .materiaselect {
+            padding: 5px 10px;
+            background: #DB3962;
+            color: #FFFFFF;
+            margin-right: 8px;
+            cursor: pointer; }
+          .de .demain .de2 .right .right1 .materia {
+            padding: 5px 10px;
+            background: #CCCCCC;
+            margin-right: 8px;
+            cursor: pointer; }
+          .de .demain .de2 .right .right1 .diamond {
+            color: #DB3962; }
+          .de .demain .de2 .right .right1 #carveword {
+            padding: 2px;
+            width: 80px;
+            height: 17px;
+            margin-right: 10px;
+            border: 1px solid #CCCCCC;
+            outline: none; }
+        .de .demain .de2 .right .info {
+          float: left;
+          margin-top: 10px;
+          margin-left: 40px;
+          padding-top: 10px;
+          width: 450px;
+          border-top: 1px dashed #D2D2D2; }
+          .de .demain .de2 .right .info .button {
+            float: left;
+            width: 450px;
+            height: 60px;
+            overflow: hidden; }
+            .de .demain .de2 .right .info .button .addtocart_zuan {
+              float: left;
+              margin-top: 12px;
+              margin-right: 12px;
+              background: url(../image/addtocart_zuan.png) no-repeat;
+              width: 227px;
+              height: 42px;
+              line-height: 42px;
+              cursor: pointer; }
+            .de .demain .de2 .right .info .button .addtofavor {
+              float: left;
+              margin-top: 12px;
+              margin-right: 12px;
+              background: url(../image/addtofavor.png) no-repeat;
+              width: 126px;
+              height: 42px;
+              line-height: 42px;
+              cursor: pointer; }

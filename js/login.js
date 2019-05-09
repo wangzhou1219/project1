@@ -36,12 +36,8 @@ let userJson = JSON.parse( userTxt );
 $("#but").click(function(){
 	if(farr[0]*farr[1]){
 		if(uphone.value == userJson.phone && upwd.value == userJson.pwd){
-			$("#zunjing").html("尊敬的");
-			$("#username").html(userJson.phone+"用户");
 			alert("登录成功");
-
-			location.href = "index.html";
-			
+			location.href = `index.html?userphone=${userJson.phone}`;			
 		}else{
 			alert("手机号或密码不正确,请重新输入");
 			location.href = "login.html";

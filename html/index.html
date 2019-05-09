@@ -504,3 +504,14 @@
 <script src="../js/index.js"></script>
 <script src="../js/login.js"></script>
 </html>
+<script type="text/javascript">
+	    Fuser();
+        function Fuser(){
+        var str1=window.location.search;
+		if(str1!=""){
+		var username=str1.substr(11,11);
+		$("#zunjing").html("尊敬的");
+		$("#username").html(username);
+		}   
+        }
+</script>

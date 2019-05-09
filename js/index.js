@@ -34,7 +34,9 @@ function bannertime(){
         })
 
 //地图选项卡
-var $citylist=$(".city ul li");
+changecity();
+function changecity(){
+	var $citylist=$(".city ul li");
 var $maplist=$(".map li");
 var shoparr=["../image/shops/beijing.jpg","../image/shops/shenzhen.jpg","../image/shops/tianjin.jpg","../image/shops/chengdu.jpg","../image/shops/zhejiang.jpg","../image/shops/jiangsu.jpg","../image/shops/fujian.jpg","../image/shops/hainan.jpg","../image/shops/chongqing.jpg","../image/shops/hunan.jpg","../image/shops/hebei.jpg","../image/shops/jiangxi.jpg"]
 var $shopimg=$(".shop img")
@@ -46,4 +48,6 @@ $citylist.mouseenter(function(){
     $maplist.eq(cindex).css("display","block");
     $shopimg.attr("src",shoparr[cindex]);
 })
-//取消placeholder
+}
+
+
