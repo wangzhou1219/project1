@@ -1397,6 +1397,184 @@
                     
             }
                             
+        }
+        
+        
+        
+        
+        
+        .de3{
+            width:1180px;
+            float: left;
+            padding-top:18px;
+            .de3left{
+                    float: left;
+                    width: 242px;
+                    height:1865px;
+                    .de3hleft{
+                            float: left;
+                            width: 240px;
+                            height: 35px;
+                            line-height: 35px;
+                            text-indent: 10px;
+                            font-weight: bold;
+                            border: 1px solid #D2D2D2;
+                            background: url(../image/listbg.gif);
+                            color: #DB3962;
+                    }
+                    .de3mleft{
+                            float: left;
+                            width: 240px;
+                            height: 231px;
+                            border-left: 1px solid #D2D2D2;
+                            border-right: 1px solid #D2D2D2;
+                            border-bottom: 1px solid #D2D2D2;
+                    }
+                    .de3fleft{
+                        float: left;
+                        margin-top: 20px;
+                        width: 240px;
+                        height: 35px;
+                        line-height: 35px;
+                        text-indent: 10px;
+                        font-weight: bold;
+                        border: 1px solid #D2D2D2;
+                        background: url(../image/listbg.gif);
+                    }
+                    ul{
+                            float: left;
+                            width: 240px;
+                            border-left: 1px solid #D2D2D2;
+                            border-right: 1px solid #D2D2D2;
+                            li{
+                                float: left;
+                                padding: 5px 0;
+                                width: 240px;
+                                height: 237px;
+                                text-align: center;
+                                background: #FFFFFF;
+                                img{
+                                    width: 200px;
+                                    height: 200px;
+                                    border: none;
+                                }
+                                p{
+                                        float: left;
+                                    width: 240px;
+                                    height: 36px;
+                                    line-height: 30px;
+                                    text-align: center;
+                                        border-bottom: 1px solid #D2D2D2;
+
+                                    background: #FFFFFF;
+                                        overflow: hidden;
+                                }
+                            }
+                    }
+                }
+            .de3right{
+                float: right;
+                width:910px;    
+                border: 1px solid #D2D2D2;
+                background: #FFFFFF;
+                .de3hright{
+                        float: left;
+                        width: 910px;
+                        height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                        font-weight: bold;
+                        border-bottom: 1px solid #D2D2D2;
+                        background: url(../image/listbg.gif);
+                        .de3hright1{
+                                float: left;
+                            width: 100px;
+                            height: 35px;
+                            line-height: 35px;
+                            border-right: 1px solid #D2D2D2;
+                            cursor: pointer;
+                        }
+                        .de3hright2{
+                            float: left;
+                            width: 100px;
+                                height: 35px;
+                                line-height: 35px;
+                            border-right: 1px solid #D2D2D2;
+                            cursor: pointer;
+                        }
+                        .de3hright3{
+                                float: left;
+                                width: 100px;
+                                height: 35px;
+                                line-height: 35px;
+                                    border-right: 1px solid #D2D2D2;
+                                cursor: pointer;
+                        }
+                }
+                .de3mright{
+                    float: left;
+                    width: 712px;
+                        text-align: center;
+                        padding: 20px 45px 0 80px;
+                    clear: both;
+                    img{
+                        min-width: 712px;
+                        padding: 20px;
+                    }
+                }
+                .de3fright{
+                        float: left;
+                        width: 712px;
+                        text-align: left;
+                        padding: 20px 98px;
+                        line-height: 24px;
+                        height: auto;
+                        
+                        strong{                                
+                                float: left;
+                                width: 712px;
+                                 clear: both;
+                                border-bottom: 1px solid #ddd;
+                                margin-bottom: 12px;
+                                padding: 20px 0 12px 0;
+                                background: url(../image/logobg.gif) no-repeat 0 20px;
+                                    text-indent: 28px;
+                                font-size: 14px;
+                        }
+                         .productpack p {
+                            float: right;
+                            width: 290px;
+                            text-indent: 24px;
+                            padding: 25px 20px 0 0;}
+                         .productsend p{
+                                 float: left;
+                            width: 274px;
+                            margin: 40px 0 0 47px;
+                                text-indent: 24px;
+                         }
+                          p{
+                                 float: left;
+                                    text-indent: 24px;
+                                    clear: both;
+                                width: 712px;
+                         }
+                        .productpack{
+                                float: left;
+                                width: 700px;
+                                height: 290px;
+                                background: url(../image/cpt8.jpg) no-repeat;
+                                margin: 20px 0 0 0;
+                        }
+                        .productsend {
+                            float: left;
+                            width: 700px;
+                            height: 280px;
+                            background: url(../image/cpt9.jpg) no-repeat;
+                            margin-top: 10px;
+                         }
+                }   
+            }
+            
         }      
     }
 }

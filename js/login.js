@@ -23,17 +23,21 @@ $("#upwd").blur(function(){
 		farr[1]=0;
 	}	
 })
+
+
 let str = document.cookie;
-let arr = str.split("; ");
-let userTxt = "";
-for( let i = 0 ; i  < arr.length ; i++ ){
-			let item = arr[i].split("=");
+$("#but").click(function(){
+if(str){
+	let arr12 = str.split("; ");
+	let userTxt = "";
+	for( let i = 0 ; i  < arr12.length ; i++ ){
+			let item = arr12[i].split("=");
 			if( item[0] == "user" ){
 				userTxt = item[1];
 			}
-		}
+	}
 let userJson = JSON.parse( userTxt );
-$("#but").click(function(){
+	console.log(farr[1],farr[0]);
 	if(farr[0]*farr[1]){
 		if(uphone.value == userJson.phone && upwd.value == userJson.pwd){
 			alert("登录成功");
@@ -50,6 +54,13 @@ $("#but").click(function(){
 			$("#upwdre").html("请输入正确的密码格式");	
 		}
 	}
-	return false;
 	
+	return false;
+}else{
+	alert("手机号或密码不正确,请重新输入");
+}
+
 })
+	
+
+

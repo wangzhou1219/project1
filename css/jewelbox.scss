@@ -1,0 +1,184 @@
+@charset "utf-8";
+.boxline{
+    height:17px;
+    clear: both;
+    background: #FEF1EF;
+}
+.tuijian{
+        width: 100%;
+        padding: 20px 0;
+        background: #FFFFFF;
+        .tuicen{
+            margin: 0 auto;
+            width: 1180px;
+            .tuihead{
+                    padding: 0 10px;
+                    width: 1160px;
+                    height: 34px;
+                    background: url(../image/hotbg.png);
+                    border-top: 1px solid #DEDEDE;
+                    border-bottom: 1px solid #DEDEDE;
+                    .tuihl{
+                            float: left;
+                            width: 300px;
+                            height: 34px;
+                            line-height: 34px;
+                            font-weight: bold;
+                            text-indent: 25px;
+                            background: url(../image/lovebg.png) no-repeat left center;
+                    }
+                    .tuihr{
+                        float: right;
+                        padding-right: 5px;
+                        width: 300px;
+                        height: 34px;
+                        line-height: 34px;
+                        text-align: right;
+                    }
+                    }
+            }
+        .tuimain{
+                margin-top: 10px;
+                padding: 20px 10px;
+                width: 1158px;
+                height: 200px;
+                border: 1px solid #DEDEDE;
+                .mainleft{
+                        float: left;
+                        width: 29px;
+                        height: 175px;
+                        background: url(../image/hotleft.png) no-repeat center center;
+                }
+                .maincen{
+                        visibility: visible;
+                        overflow: hidden;
+                        position: relative;
+                        z-index: 2;
+                        left: 0px;
+                        width: 1092px;
+                         float: left;
+                         ul{
+                                 position: relative;
+                                     z-index: 1;
+                                     overflow: hidden;
+                                     width:3000px;
+                                li{
+                                    float: left;
+                                    width: 182px;
+                                    height: 201px;
+                                    img{
+                                        height: 182px;
+                                    }
+                                }
+                         }
+                }
+                .mainright{
+                    float: right;
+                    width: 29px;
+                    height: 175px;
+                    background: url(../image/hotright.png) no-repeat center center;
+                }
+        }
+}
+.boxmain{
+    margin: 20px auto;
+    width: 1180px;
+
+    .bmcen{
+        float: left;
+        width: 1180px;
+        border: 1px solid #DEDEDE;
+        background: #FFFFFF;
+        .bmcenh{
+                padding: 10px 20px 0 20px;
+                width: 1140px;
+                height: 40px;
+                border-top: 3px solid #FFC0C1;
+                .bmcenhh{
+                        width: 1140px;
+                        height: 40px;
+                        line-height: 40px;
+                        border-bottom: 1px solid #DEDEDE;
+                            font-weight: bold;
+                        text-indent: 30px;
+                        background: url(../image/carticon.jpg) no-repeat left center;
+                }
+        }
+        .wrapmain{
+                padding: 10px 20px;
+                width: 1140px;
+                table{
+                    float: left;
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    border: none;
+                    border-collapse: collapse;
+                    .headrow{
+                        height: 30px;
+                        line-height: 30px;
+                        
+                    }
+                    .product{
+                            background: #F7F7F7;
+                    }
+                }
+                .img{
+                        width: 110px;
+                }
+                td{
+                        padding: 5px;
+                        text-align: center;
+                }
+                .size,.price,.action{
+                    width: 100px;
+                }
+                .word{
+                    width: 150px;
+                }
+                .mainstat{
+                        clear: both;
+                        float: left;
+                        margin: 10px 0;
+                        padding: 0;
+                        width: 1140px;
+                        height: 40px;
+                        background: #F7F7F7;
+                        .statleft{
+                                float: left;
+                                width: 400px;
+                                height: 40px;
+                                line-height: 40px;
+                                #totalcount{
+                                        margin: 0 5px;
+                                        font-weight: bold;
+                                        color: #C11E1F;
+                                }
+                                .gobuy{
+                                        margin: 0 20px;
+                                        color: #DB3962;
+                                }
+                        }
+                        .statright{
+                                float: right;
+                                width: 740px;
+                                height: 40px;
+                                line-height: 40px;
+                                text-align: right;
+                                       #totalmoney{
+                                           margin: 0 5px;
+                                            font-size: 16px;
+                                            font-weight: bold;
+                                            color: #C11E1F;
+                                       }
+                                       .botton{
+                                               margin: 0 15px;
+                                                padding: 4px 25px;
+                                                color: #FFFFFF;
+                                                cursor: pointer;
+                                       }
+                        }
+                }
+        }
+    }
+}

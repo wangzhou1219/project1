@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的珠宝箱</title>
+			<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+    		<link rel="stylesheet" type="text/css" href="../css/index2.css"/>
+    		<link rel="stylesheet" type="text/css" href="../css/jewelbox.css"/>
+	</head>
+	<body>
+		<div id="boxhead"></div>
+		<div class="boxmain">
+			<div class="bmcen">
+				<div class="bmcenh">
+                <div class="bmcenhh">我的珠宝箱</div>
+            	</div>
+            	
+            	<div id="cartcart" class="wrapmain">
+                <table>
+                    <tbody><tr class="headrow">
+                        <td class="img">商品</td>
+                        <td>型号</td>
+                        <td class="size">尺寸</td>
+                        <td class="word">刻字内容</td>
+                        <td class="price">市场价格</td>
+                        <td class="price">优惠</td>
+                        <td class="price">成交价</td>
+                        <td class="action">操作</td>
+                    	</tr>
+
+                      <!--<tr class="product">
+                        <td class="img"><img width="120" height="120" src="http://www.dionly.com/upload/image/20151023/small20151023230509.jpg" alt=""></td>
+                        <td><a href="/products/4509" target="_blank">绽放，材质：18K，镶口：45-50分 DRW124509D</a></td>
+                        <td class="size">4</td>
+                        <td class="word">&nbsp;</td>
+                        <td class="price" style="text-decoration:line-through;">4970.00</td>
+                        <td class="price">2354.00</td>
+                        <td class="price">2616.00</td>
+                        <td class="action"><div><a href="javascript:void(0);" >删除</a><br><a href="javascript:void(0);" >修改</a></div></td>
+                    </tr>-->
+                </tbody></table>
+                	<div class="mainstat">
+                    <div class="statleft">共<span id="totalcount" class="total">0</span>件商品<a href="javascript:void(0);" class="clear">×清空珠宝箱</a><a href="second.html" class="gobuy">继续购物</a>
+                    </div>
+                    <div class="statright">
+                        商品总金额 <span id="productmoney"></span> - 优惠金额 <span id="discountmoney"></span> = 订单总金额 <span id="totalmoney" class="total"></span>
+                        <span class="button"><img  src="../image/jiesuan.jpg" border="0"></span>
+                    </div>
+                </div>
+            </div>
+			</div>
+		</div>				
+		<div class="boxline"></div>		
+		<div class="tuijian">
+			<div class="tuicen">
+				<div class="tuihead">
+					<div class="tuihl">热门推荐</div>
+					<div class="tuihr">更多</div>
+				</div>
+				<div class="tuimain">
+					<div class="mainleft"></div>
+					<div class="maincen">
+						<ul id="lis">
+							<li style="float:left;width:182px;">
+								<a href="#" >
+									<img src="../image/tuijian/121.jpg" >
+								</a><br>
+								<div><a href="#">永恒之心</a></div>
+							</li>
+							<li style="float:left;width:182px;">
+								<a href="#" >
+									<img src="../image/tuijian/122.jpg" >
+								</a><br>
+								<div><a href="#">永恒之心</a></div>
+							</li>
+							<li style="float:left;width:182px;">
+								<a href="#" >
+									<img src="../image/tuijian/123.jpg" >
+								</a><br>
+								<div><a href="#">永恒之心</a></div>
+							</li>
+							<li style="overflow:hidden;float:left;width:182px;">
+								<a href="#" >
+									<img src="../image/tuijian/124.jpg" >
+								</a><br>
+								<div><a href="#">永恒之心</a></div>
+							</li>
+							<li style="float:left;width:182px;">
+								<a href="#" >
+									<img src="../image/tuijian/125.jpg" >
+								</a><br>
+								<div><a href="#">永恒之心</a></div>
+							</li>
+							<li style="float:left;width:182px;">
+								<a href="#" >
+									<img src="../image/tuijian/126.jpg" >
+								</a><br>
+								<div><a href="#">永恒之心</a></div>
+							</li>
+							<li style="float:left;width:182px;">
+								<a href="#" >
+									<img src="../image/tuijian/127.jpg" >
+								</a><br>
+								<div><a href="#">永恒之心</a></div>
+							</li>
+						</ul>
+					</div>
+					<div class="mainright"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="boxfendian"></div>
+		<div id="boxfoot"></div>
+		<div id="boxright"></div>
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="../js/index.js"></script>
+<script type="text/javascript">
+	 $("#boxhead").load("headfoot.html #head");
+    $("#boxfoot").load("headfoot.html #foot");
+    $("#boxright").load("headfoot.html #xuanfu");
+      $("#boxfendian").load("headfoot.html #fendian",function(){
+      	changecity();
+      });
+        $("#dehead").on("focus","#inp",function(){
+    	var oinp=document.getElementById("inp");
+		oinp.onfocus=function(){oinp.placeholder=""}
+		oinp.onblur=function(){oinp.placeholder="请输入型号或者名称"};
+    })
+        
+    $(".mainright").click(function(){
+    	$("#lis").animate({marginLeft:-182},500,function(){
+    		$("#lis").css( "marginLeft" , 0 )
+				   .find("li:first")
+				   .appendTo( $("#lis") );
+    	})    	
+    })
+      $(".mainleft").click(function(){
+      		$("#lis").find("li:last").prependTo( $("#lis") );
+      		$("#lis").css( "marginLeft" , -182 );
+      		$("#lis").animate( { marginLeft : 0 } , 500 );
+
+
+      })
+       
+      window.onload = function(){
+      	let boxTxt = localStorage.getItem("boxs");
+      	if( boxTxt != "null" ){
+      		let str = "";
+			let boxArr = JSON.parse( boxTxt );
+			let productmoney=0;
+			let discountmoney=0;
+			let totalmoney=0;
+      		for(let i=0;i<boxArr.length;i++){
+      			str += `<tr class="product">
+                        <td class="img"><img width="120" height="120" src= ${boxArr[i].src}></td>
+                        <td><a href="/products/4509" target="_blank">${boxArr[i].name}，材质：${boxArr[i].cai}，镶口：${boxArr[i].weight}分 DRW124509D</a></td>
+                        <td class="size">${boxArr[i].cun}</td>
+                        <td class="word">&nbsp;</td>
+                        <td class="price" style="text-decoration:line-through;">${boxArr[i].price1}</td>
+                        <td class="price">${boxArr[i].price1-boxArr[i].price2}</td>
+                        <td class="price">${boxArr[i].price2}</td>
+                        <td class="action"><div><a class="del" href="javascript:void(0);" >删除</a><br><a href="javascript:void(0);" >修改</a></div></td>
+                    </tr>`   
+                 productmoney+=parseInt(boxArr[i].price1);
+                 discountmoney+=parseInt(boxArr[i].price1-boxArr[i].price2);
+                 totalmoney+=parseInt(boxArr[i].price2);
+                    
+      		}	     	
+      		$("tbody").html( str );
+      		$("#totalcount").html(boxArr.length);
+      		$("#productmoney").html(productmoney);
+      		$("#discountmoney").html(discountmoney);
+      		$("#totalmoney").html(totalmoney);
+      		$("tbody").on("click",".del",function(){
+      			if(confirm("确定删除？")){
+      				$(this).parent().parent().parent().remove();
+      			}
+      			var count=$(this).parent().parent().parent().index();
+      				boxArr.splice( count+1,1 );
+      				localStorage.setItem( "boxs" , JSON.stringify( boxArr ) );
+      					
+      		})	      		
+      		$(".clear").click(function(){      			
+      			localStorage.setItem( "boxs" , null); 
+			if(confirm("确定删除全部吗？")){
+				location.reload();
+			}
+	
+      		})
+      		
+      	}else{
+      		var str1="";
+      		str1=`<p>您的珠宝箱暂时没有找到商品</p>`;
+      		$("tbody").html( str1 );
+      	}
+      	
+      }
+       
+</script>

@@ -63,13 +63,13 @@
 				</div>
 			</div>
 			<nav>
-				<a href="#">首页</a>
-				<a href="#">裸钻</a>
-				<a href="#">钻戒定制</a>
-				<a href="#">定价产品</a>
-				<a href="#">黄金</a>
-				<a href="#">高端定制</a>
-				<a href="#">珠宝百科</a>
+				<a target="_blank" href="#">首页</a>
+				<a target="_blank" href="second.html">裸钻</a>
+				<a target="_blank" href="second.html">钻戒定制</a>
+				<a target="_blank" href="second.html">定价产品</a>
+				<a target="_blank" href="second.html">黄金</a>
+				<a target="_blank" href="second.html">高端定制</a>
+				<a target="_blank" href="second.html">珠宝百科</a>
 			</nav>
 			<img src="../image/phone.png" alt="">
 		</div>
@@ -505,7 +505,10 @@
 <script src="../js/login.js"></script>
 </html>
 <script type="text/javascript">
-	    Fuser();
+	if(document.cookie){
+		Fuser();
+	}
+	    
         function Fuser(){
         var str1=window.location.search;
 		if(str1!=""){

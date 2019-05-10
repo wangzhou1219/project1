@@ -1,0 +1,151 @@
+.boxline {
+  height: 17px;
+  clear: both;
+  background: #FEF1EF; }
+
+.tuijian {
+  width: 100%;
+  padding: 20px 0;
+  background: #FFFFFF; }
+  .tuijian .tuicen {
+    margin: 0 auto;
+    width: 1180px; }
+    .tuijian .tuicen .tuihead {
+      padding: 0 10px;
+      width: 1160px;
+      height: 34px;
+      background: url(../image/hotbg.png);
+      border-top: 1px solid #DEDEDE;
+      border-bottom: 1px solid #DEDEDE; }
+      .tuijian .tuicen .tuihead .tuihl {
+        float: left;
+        width: 300px;
+        height: 34px;
+        line-height: 34px;
+        font-weight: bold;
+        text-indent: 25px;
+        background: url(../image/lovebg.png) no-repeat left center; }
+      .tuijian .tuicen .tuihead .tuihr {
+        float: right;
+        padding-right: 5px;
+        width: 300px;
+        height: 34px;
+        line-height: 34px;
+        text-align: right; }
+  .tuijian .tuimain {
+    margin-top: 10px;
+    padding: 20px 10px;
+    width: 1158px;
+    height: 200px;
+    border: 1px solid #DEDEDE; }
+    .tuijian .tuimain .mainleft {
+      float: left;
+      width: 29px;
+      height: 175px;
+      background: url(../image/hotleft.png) no-repeat center center; }
+    .tuijian .tuimain .maincen {
+      visibility: visible;
+      overflow: hidden;
+      position: relative;
+      z-index: 2;
+      left: 0px;
+      width: 1092px;
+      float: left; }
+      .tuijian .tuimain .maincen ul {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        width: 3000px; }
+        .tuijian .tuimain .maincen ul li {
+          float: left;
+          width: 182px;
+          height: 201px; }
+          .tuijian .tuimain .maincen ul li img {
+            height: 182px; }
+    .tuijian .tuimain .mainright {
+      float: right;
+      width: 29px;
+      height: 175px;
+      background: url(../image/hotright.png) no-repeat center center; }
+
+.boxmain {
+  margin: 20px auto;
+  width: 1180px; }
+  .boxmain .bmcen {
+    float: left;
+    width: 1180px;
+    border: 1px solid #DEDEDE;
+    background: #FFFFFF; }
+    .boxmain .bmcen .bmcenh {
+      padding: 10px 20px 0 20px;
+      width: 1140px;
+      height: 40px;
+      border-top: 3px solid #FFC0C1; }
+      .boxmain .bmcen .bmcenh .bmcenhh {
+        width: 1140px;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #DEDEDE;
+        font-weight: bold;
+        text-indent: 30px;
+        background: url(../image/carticon.jpg) no-repeat left center; }
+    .boxmain .bmcen .wrapmain {
+      padding: 10px 20px;
+      width: 1140px; }
+      .boxmain .bmcen .wrapmain table {
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border: none;
+        border-collapse: collapse; }
+        .boxmain .bmcen .wrapmain table .headrow {
+          height: 30px;
+          line-height: 30px; }
+        .boxmain .bmcen .wrapmain table .product {
+          background: #F7F7F7; }
+      .boxmain .bmcen .wrapmain .img {
+        width: 110px; }
+      .boxmain .bmcen .wrapmain td {
+        padding: 5px;
+        text-align: center; }
+      .boxmain .bmcen .wrapmain .size, .boxmain .bmcen .wrapmain .price, .boxmain .bmcen .wrapmain .action {
+        width: 100px; }
+      .boxmain .bmcen .wrapmain .word {
+        width: 150px; }
+      .boxmain .bmcen .wrapmain .mainstat {
+        clear: both;
+        float: left;
+        margin: 10px 0;
+        padding: 0;
+        width: 1140px;
+        height: 40px;
+        background: #F7F7F7; }
+        .boxmain .bmcen .wrapmain .mainstat .statleft {
+          float: left;
+          width: 400px;
+          height: 40px;
+          line-height: 40px; }
+          .boxmain .bmcen .wrapmain .mainstat .statleft #totalcount {
+            margin: 0 5px;
+            font-weight: bold;
+            color: #C11E1F; }
+          .boxmain .bmcen .wrapmain .mainstat .statleft .gobuy {
+            margin: 0 20px;
+            color: #DB3962; }
+        .boxmain .bmcen .wrapmain .mainstat .statright {
+          float: right;
+          width: 740px;
+          height: 40px;
+          line-height: 40px;
+          text-align: right; }
+          .boxmain .bmcen .wrapmain .mainstat .statright #totalmoney {
+            margin: 0 5px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #C11E1F; }
+          .boxmain .bmcen .wrapmain .mainstat .statright .botton {
+            margin: 0 15px;
+            padding: 4px 25px;
+            color: #FFFFFF;
+            cursor: pointer; }
